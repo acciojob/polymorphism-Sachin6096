@@ -25,8 +25,8 @@ public class Main {
     {
         Product p = new Product();
 
-        int a = p.production(5,6);
-        int b =p.production(5,6,4);
-        double c = p.production(5.0,6.2);
+        p.production(5,6);
+        p.production(5,6,4);
+        p.production(5.0,6.2);
     }
 }
