@@ -4,17 +4,17 @@ public class Main {
 
     public static class Product{
 
-        public int production(int x, int y)
+        public int product(int x, int y)
         {
             return x*y;
         }
 
-        public int production(int x, int y, int z)
+        public int product(int x, int y, int z)
         {
             return x*y*z;
         }
 
-        public double production(double x, double y)
+        public double product(double x, double y)
         {
             return x*y;
         }
@@ -25,8 +25,8 @@ public class Main {
     {
         Product p = new Product();
 
-        p.production(5,6);
-        p.production(5,6,4);
-        p.production(5.0,6.2);
+        p.product(5,6);
+        p.product(5,6,4);
+        p.product(5.0,6.2);
     }
 }
