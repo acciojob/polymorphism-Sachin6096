@@ -23,10 +23,10 @@ public class Main {
 
     public static void main(String[] args)
     {
-        Product obj = new Product();
+        Product p = new Product();
 
-        int a = obj.production(5,6);
-        int b = obj.production(5,6,4);
-        double c = obj.production(5.0,6.2);
+        int a = p.production(5,6);
+        int b =p.production(5,6,4);
+        double c = p.production(5.0,6.2);
     }
 }
